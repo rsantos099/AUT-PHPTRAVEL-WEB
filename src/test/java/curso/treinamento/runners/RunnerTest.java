@@ -11,6 +11,6 @@ import cucumber.api.junit.Cucumber;
 		features= {"src/test/resources/features"},
 		glue= {"curso.treinamento.steps"},
 		snippets = SnippetType.UNDERSCORE,
-		tags = {})
+		tags = {"@atividade"})
 
 public class RunnerTest {}

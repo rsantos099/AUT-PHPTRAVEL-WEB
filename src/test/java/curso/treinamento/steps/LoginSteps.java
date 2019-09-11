@@ -35,8 +35,20 @@ public class LoginSteps {
 	@Entao("sou autenticado")
 	public void sou_autenticado() throws InterruptedException {
     Thread.sleep(5000);
-	Assert.assertTrue(driver.findElement(By.xpath("//a[@href='https://www.phptravels.net/admin/logout'])")).isDisplayed());	
+	Assert.assertTrue(driver.findElement(By.xpath("//a[@href='https://www.phptravels.net/admin/logout']")).isDisplayed());	
 	}
+	
+	
+	@Entao("é apresentada a mensagem The Email field must contain a valid email address")
+	public void é_apresentada_a_mensagem() throws InterruptedException{
+		Thread.sleep(5000);
+		Assert.assertTrue(driver.findElement(By.xpath("//p[text()='The Email field must contain a valid email address.']")).isDisplayed());
+	}
+	
+	
+	// //p[text()='The Email field must contain a valid email address.']
+	
+	
 
 
 }
