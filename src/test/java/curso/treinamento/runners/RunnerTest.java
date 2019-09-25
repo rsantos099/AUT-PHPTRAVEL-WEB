@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features= {"src/test/resources/features"},
-		glue= {"curso.treinamento.steps"},
+		glue= {"curso.treinamento.steps","curso.treinamento.setup"},
 		snippets = SnippetType.UNDERSCORE,
-		tags = {"@atividade"})
+		tags = {"@logincomsucesso"})
 
 public class RunnerTest {}

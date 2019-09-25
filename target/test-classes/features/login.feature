@@ -2,14 +2,14 @@
 
 Funcionalidade: Login
  
-@login
+@logincomsucesso
   Cenario: Realizar Login com sucesso
-		Dado que eu deseje logar no sistema
+		Dado que eu esteja na tela de login
 		Quando faco o login com o usuario "admin@phptravels.com" e senha "demoadmin" 
 		Entao sou autenticado
 	
 
-	@atividade
+	@LoginInvalido
 	
 	
 	 Cenario: Realizar Login com email inválido
