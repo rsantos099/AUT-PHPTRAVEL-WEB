@@ -1,6 +1,6 @@
 package curso.treinamento.pages;
 
-import java.nio.channels.SelectionKey;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
