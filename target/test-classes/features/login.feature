@@ -15,5 +15,7 @@ Funcionalidade: Login
 	 Cenario: Realizar Login com email inválido
 		Dado que eu deseje logar no sistema
 		Quando faco o login com o usuario "teste" e senha "demoadmin" 
-		Entao é apresentada a mensagem The Email field must contain a valid email address	
+		Entao é apresentada a mensagem The Email field must contain a valid email address
+		
+			
 		
